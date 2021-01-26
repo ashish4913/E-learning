@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'students.apps.StudentsConfig',
     'embed_video',
-    'memcache_status',
+    #'memcache_status',
     'rest_framework',
 ]
 
@@ -105,7 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
+'''
 SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
 
 CACHES = {
@@ -118,7 +118,7 @@ CACHES = {
 CACHE_MIDDLEWARE_ALIAS = 'default'
 CACHE_MIDDLEWARE_SECONDS = 60 * 15
 CACHE_MIDDLEWARE_KEY_PREFIX = 'education'
-
+'''
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
